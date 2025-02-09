@@ -1,7 +1,7 @@
 output "filename" {
-  value = local_file.my_managed_file.filename
+  value = local_file.this.filename
 }
 
 output "content" {
-  value = local_file.my_managed_file.content
+  value = local_file.this.content
 }
